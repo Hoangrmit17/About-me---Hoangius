@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About — Hoangius</title>
+  <link rel="stylesheet" href="styles.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+   <!-- Navigation -->
+  <nav class="site-nav">
+    <div class="nav-logo">
+      <a href="#hero">
+      <img src="/A2/assets/black logo.svg" alt="Logo" style="height:2em;vertical-align:middle;margin-right:0.5em;">
+      </a>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#works">Works</a></li>
+    </ul>
+    <div class="contact"><a href="#footer">Contact</a></div>
+     
+    <ul class="sidebar" id="sidebar">
+      <span class="close-button" id="closeSidebar">&#10005;</span>
+      <div class="name">
+        <li><a href="#hero">Hoangius</a></li>
+      </div>
+      <li><a href="#about">About</a></li>
+      <li><a href="#works">Works</a></li>
+      <li><a href="#footer">Contact</a></li>
+    </ul>
+   <button class="nav-toggle" aria-label="Open menu" id="navToggle">&#9776;</button> 
+  </nav>
+  <!-- Scroll progress bar -->
+  <div class="progress" aria-hidden><span id="bar"></span></div>
+
+  <main class="container">
+    <!-- Left sticky panel -->
+    <aside class="left">
+      <div class="card">
+        <h1 class="title">Hồ Hoàng</h1>
+        <p class="role">
+          <svg class="ico ico-pulse" viewBox="0 0 24 24" aria-hidden="true">
+            <rect x="3" y="4" width="18" height="12" rx="2" />
+            <rect x="7" y="18" width="10" height="2" rx="1" />
+          </svg>
+          Video Editor / VFX Supervisor 
+        </p>
+
+        <div class="portrait" id="portrait">
+          <img src="portrait.jpg" alt="Portrait of Hoangius" />
+          <div class="spot" id="spot"></div>
+        </div>
+
+        <ul class="facts">
+          <li><span>Location</span><b>Hồ Chí Minh, VN</b></li>
+          <li><span>Email</span><b>hohoang4425@gmail.com</b></li>
+          <li><span>Focus</span><b>Visual, performance</b></li>
+        </ul>
+
+        <div class="social" id="socialMagnet">
+          <a href="#" aria-label="GitHub" class="mag icon-bounce-hover">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+     viewBox="0 0 24 24" role="img" aria-label="Instagram">
+  <title>Instagram</title>
+  <rect x="2" y="2" width="20" height="20" rx="5"
+        fill="none" stroke="currentColor" stroke-width="2"/>
+  <circle cx="12" cy="12" r="4.5" fill="none" stroke="currentColor" stroke-width="2"/>
+  <circle cx="17.5" cy="6.5" r="1.2" fill="currentColor"/>
+</svg>
+
+            Insta
+          </a>
+          <a href="#" aria-label="LinkedIn" class="mag icon-bounce-hover">
+            <svg class="ico" viewBox="0 0 24 24" aria-hidden="true">
+              <rect x="4" y="4" width="16" height="16" rx="2" />
+              <rect x="7" y="10" width="2" height="6" />
+              <circle cx="8" cy="8" r="1" />
+              <path d="M13 16v-3a2 2 0 0 1 4 0v3" />
+            </svg>
+            LinkedIn
+          </a>
+          <a href="#" aria-label="Email" class="mag icon-bounce-hover">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+     viewBox="0 0 24 24" role="img" aria-label="Behance">
+  <title>Behance</title>
+  <rect x="2" y="2" width="20" height="20" rx="4"
+        fill="none" stroke="currentColor" stroke-width="2"/>
+  <text x="5.8" y="16.5" font-family="Inter, Arial, Helvetica, sans-serif"
+        font-weight="700" font-size="11" fill="currentColor">B</text>
+  <text x="12.9" y="16.5" font-family="Inter, Arial, Helvetica, sans-serif"
+        font-weight="700" font-size="11" fill="currentColor">ē</text>
+</svg>
+            Behance
+          </a>
+        </div>
+
+        <button class="toggle" id="themeToggle" aria-label="Toggle theme">Dark mode</button>
+      </div>
+    </aside>
+
+    <!-- Right scroll content -->
+    <section class="right">
+      <article class="block reveal">
+        <h2>About me</h2>
+        <p>
+          I’m a creative Video Editor and VFX Supervisor with a passion for turning ideas into visually compelling stories. With strong skills in editing, compositing, and visual storytelling, I specialize in crafting cinematic content that blends technical precision with artistic vision. From cutting engaging sequences to overseeing complex VFX workflows, I thrive on bringing concepts to life and delivering polished, high-quality visuals that captivate audiences.
+        </p>
+      </article>
+
+      <article class="block reveal">
+        <h2>What I’m good at</h2>
+        <ul class="tags">
+          <li>After Effect</li><li>Premiere pro</li><li>Figma</li><li>CSS</li>
+          <li>Blender 3D</li>
+        </ul>
+      </article>
+
+      <article class="block reveal">
+        <h2>Timeline</h2>
+        <ol class="timeline">
+          <li>
+            <b>2025</b>
+            <p>
+              <svg class="ico ico-spin" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 2l2.4 5 5.6.6-4 3.7 1 5.7-5-2.7-5 2.7 1-5.7-4-3.7 5.6-.6z" />
+              </svg>
+              Shipping small projects and improve skills.
+            </p>
+          </li>
+          <li>
+            <b>2024</b>
+            <p>
+              <svg class="ico ico-spin-slow" viewBox="0 0 24 24" aria-hidden="true">
+                <rect x="3" y="5" width="18" height="16" rx="2" />
+                <rect x="3" y="5" width="18" height="4" />
+              </svg>
+              Dove deeper into post-production.
+            </p>
+          </li>
+          <li>
+            <b>2023</b>
+            <p>
+              <svg class="ico ico-pulse" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M4 12h4l2-4 2 8 2-4h6" />
+              </svg>
+              Started learning art & visual departement.
+            </p>
+          </li>
+        </ol>
+      </article>
+
+      <article class="block reveal">
+        <h2>Now</h2>
+        <p>
+          Exploring some freelance jobs for getting experiences.
+        </p>
+      </article>
+    </section>
+  </main>
+
+  
+  <!-- Main black footer -->
+  <footer id="footer">
+    <div class="footer-inner">
+      <!-- Left: contact -->
+      <div class="contact" data-parallax data-speed="0.15">
+        <h4>Email</h4>
+        <p><a href="mailto:hohoang4425@gmail.com">hohoang4425@gmail.com</a></p>
+        <h4 style="margin-top:18px">Phone</h4>
+        <p><a href="tel:+84707546487">+84&nbsp;707546487</a></p>
+      </div>
+
+      <!-- Center: huge name -->
+      <h1 class="brand" data-parallax data-speed="0.35">Hoangius</h1>
+
+      <!-- Right: socials -->
+      <div class="social" style="text-align:right" data-parallax data-speed="0.2">
+        <h4>(Social)</h4>
+        <ul class="social-list">
+          <li><a href="https://www.facebook.com/hohoang4425" target="_blank" rel="noopener">Facebook</a></li>
+          <li><a href="https://www.instagram.com/hohoang_17" target="_blank" rel="noopener">Instagram</a></li>
+          <li><a href="https://www.behance.net/hongh58" target="_blank" rel="noopener">Behance</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Bottom mini bar -->
+    <div class="footer-bottom" data-parallax data-speed="-0.1">
+      <div class="bottom-inner">
+        <div>
+          <img src="/A2/assets/white icon.svg" alt="Logo" width="28" height="28">
+        </div>
+        <div class="copyright">©2025 Hoangius. All rights reserved.</div>
+      </div>
+    </div>
+  </footer>
+
+  <div aria-hidden class="grid-bg"></div>
+  <script src="app.js"></script>
+</body>
+</html>
