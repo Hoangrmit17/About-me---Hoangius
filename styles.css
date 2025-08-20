@@ -220,5 +220,24 @@ footer{ background:#000; color:#fff; position:relative; overflow:hidden }
 .sidebar {
     display: none;  
 }
+.cursor {
+  pointer-events: none;
+  position: fixed;
+  display: block;
+  border-radius: 0;
+  mix-blend-mode: difference;
+  top: 0;
+  left: 0;
+  z-index: 10000000000000000000;  
   
+}
+
+.circle {
+    position: absolute;
+    display: block;
+    width: 26px;
+    height: 26px;
+    border-radius: 20px;
+    background-color: #fff;
+}
 
